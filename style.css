@@ -35,3 +35,58 @@
 .contact-card .fa-linkedin {
     color: #0A66C2 !important;
 }
+
+section {
+  scroll-margin-top: 90px;
+}
+
+.section-pad {
+  padding: 70px 7vw;
+}
+
+.hero {
+  min-height: 78vh;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+.hero-card img {
+  height: 540px;
+}
+
+.stats-section {
+  padding-bottom: 55px;
+}
+
+.info-card,
+.timeline-card {
+  padding: 26px;
+}
+
+.contact-section {
+  align-items: flex-start;
+}
+
+@media(max-width:960px) {
+  section {
+    scroll-margin-top: 80px;
+  }
+
+  .section-pad {
+    padding: 58px 5vw;
+  }
+
+  .hero-card img {
+    height: 480px;
+  }
+}
+
+@media(max-width:560px) {
+  .section-pad {
+    padding: 52px 5vw;
+  }
+
+  .hero-card img {
+    height: 400px;
+  }
+}
