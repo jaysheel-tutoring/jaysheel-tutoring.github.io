@@ -7,3 +7,31 @@
 .progress-lead{max-width:920px;font-size:1.12rem;color:#344054;margin-top:-6px}.progress-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:34px}.step-card{position:relative;overflow:hidden;background:white;border:1px solid var(--line);border-radius:26px;padding:28px;box-shadow:0 18px 55px rgba(7,26,51,.07);transition:.22s}.step-card:before{content:'';position:absolute;inset:auto -35px -45px auto;width:120px;height:120px;border-radius:50%;background:rgba(201,162,77,.18)}.step-card:hover{transform:translateY(-6px);box-shadow:var(--shadow)}.step-card span{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--navy);color:var(--gold);font-weight:900;margin-bottom:16px}.step-card h3{margin:0 0 8px;color:var(--navy)}.step-card p{color:#475467}.closing-line{font-family:'Playfair Display',serif;font-size:1.55rem!important;color:#fff!important;margin-top:22px}
 @media(max-width:960px){.progress-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.progress-grid{grid-template-columns:1fr}}
+
+.contact-card a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-card i {
+    width: 25px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.fa-google {
+    color: #EA4335;
+}
+
+.fa-microsoft {
+    color: #0078D4;
+}
+
+.fa-instagram {
+    color: #E4405F;
+}
+
+.fa-linkedin {
+    color: #0A66C2;
+}
